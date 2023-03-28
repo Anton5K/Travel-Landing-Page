@@ -39,11 +39,12 @@ body {
     line-height: 1.2;
     font-weight: normal;
     color: #102746;
+    margin: auto;
 }
 
 .wrapper {
 max-width: 1060px;
-margin: auto;
+height: auto;
 }
 
 /* Header styles start */
@@ -89,9 +90,71 @@ width: 100%;
 
 .intro {
     height: 100vh;
-    background: url(/Travel-Landing-Page/img/intro-bg.jpg) no-repeat center;
+    background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 263px;
+
 }
 
 /* Intro styles end */
 
+.intro_title {
+    max-width: 619px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+.intro_subtitle {
+    max-width: 546px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.search-form_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-form_field {
+    width: 297px;
+    background: transparent url(../img/svg/circle-icon.svg) no-repeat left center;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px; 
+    color: #FFFFFF; 
+}
+.search-form_field::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px; 
+    color: #FFFFFF; 
+}
+.search-form_submit {
+    padding: 15px 39px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;  
+    color: #FFFFFF;
+    background: #1B7DFF;
+    border: 0;
+}
+.search-form_submit:hover, .search-form_submit:focus, .search-form_submit:active {
+    background: #115bbd;
+}
+
+
+
+.search-form_wrap {
+    border: 0;
+}
